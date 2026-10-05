@@ -1,0 +1,26 @@
+{
+  "name": "ticket-master-case",
+  "version": "1.0.0",
+  "description": "Study case of a Ticketmaster-like system focused on scalable system design, microservices, Clean Architecture, caching, search, event-driven architecture, and concurrency handling.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev -w event-service",
+    "typecheck": "npm run typecheck -w event-service",
+    "build": "npm run build -w event-service",
+    "start": "npm run start -w event-service",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-medina/ticket-master-case.git"
+  },
+  "author": "joao-medina",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/joao-medina/ticket-master-case/issues"
+  },
+  "homepage": "https://github.com/joao-medina/ticket-master-case#readme",
+  "private": true,
+  "workspaces": ["apps/*"]
+}
